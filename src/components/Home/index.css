@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+.ipl-cards-center-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ipl-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-geading {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.app-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.logo-heading {
+  color: #ffffff;
+  font-family: 'Breef setif';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}

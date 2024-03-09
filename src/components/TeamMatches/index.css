@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.match-games {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.banner-image {
+  height: 300px;
+  width: 100%;
+}
+
+.latest-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Breef serif';
+  font-weight: bold;
+}
+
+.banner-container {
+  width: 100%;
+}
+
+.ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  display: flex;
+}

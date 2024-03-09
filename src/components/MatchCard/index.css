@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.li-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #0f172a;
+  padding: 14px;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  margin: 14px;
+  list-style-type: none;
+}
+
+.team-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+.image {
+  width: 80px;
+}

@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.latest-match-container {
+  display: flex;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.competing-container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 400px;
+}
+
+.team-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
